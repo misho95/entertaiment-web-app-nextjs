@@ -3,6 +3,7 @@
 import Image from "next/image";
 import BookMarkButton from "./bookmark.button";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 type PropsType = {
   data: any;
@@ -11,6 +12,7 @@ type PropsType = {
 
 const Card = ({ data, pending }: PropsType) => {
   const router = useRouter();
+  const [bookmarked, setBookmarked] = useState(false);
 
   const handleLink = () => {
     if (!pending) {
@@ -31,7 +33,12 @@ const Card = ({ data, pending }: PropsType) => {
         alt={data.title}
         className="select-none absolute"
       />
-      <BookMarkButton />
+      <BookMarkButton
+        checked={bookmarked}
+        handler={(e) => {
+          e.stopPropagation(), setBookmarked(!bookmarked);
+        }}
+      />
       <div className="relative z-30 py-2 px-6 flex flex-col gap-3">
         <div className="flex items-center gap-3 text-[#FFFFFF]/75 text-[15px]">
           {data.year}

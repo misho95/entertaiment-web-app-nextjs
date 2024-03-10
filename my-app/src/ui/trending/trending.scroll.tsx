@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { MouseEventHandler, useRef, useState } from "react";
 import Card from "./card";
 
 const TrendingScroll = () => {
@@ -18,24 +18,24 @@ const TrendingScroll = () => {
     },
     {
       id: 2,
-      title: "Beyond Earth",
+      title: "Bottom Gear",
       type: "movie",
-      year: 2019,
+      year: 2021,
       age: "PG",
       thumbnails: {
-        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
-        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
       },
     },
     {
       id: 3,
-      title: "Beyond Earth",
-      type: "movie",
+      title: "Undiscovered Cities",
+      type: "tv Series",
       year: 2019,
-      age: "PG",
+      age: "E",
       thumbnails: {
-        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
-        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
       },
     },
     {
@@ -51,24 +51,24 @@ const TrendingScroll = () => {
     },
     {
       id: 5,
-      title: "Beyond Earth",
+      title: "Bottom Gear",
       type: "movie",
-      year: 2019,
+      year: 2021,
       age: "PG",
       thumbnails: {
-        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
-        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
       },
     },
     {
       id: 6,
-      title: "Beyond Earth",
-      type: "movie",
+      title: "Undiscovered Cities",
+      type: "tv Series",
       year: 2019,
-      age: "PG",
+      age: "E",
       thumbnails: {
-        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
-        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
       },
     },
   ];
@@ -79,7 +79,7 @@ const TrendingScroll = () => {
   const [pending, setPending] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const handleMouseDown = (event: MouseEvent) => {
+  const handleMouseDown: MouseEventHandler<HTMLDivElement> = (event) => {
     if (!containerRef.current) {
       return;
     }
@@ -91,7 +91,7 @@ const TrendingScroll = () => {
     setScrollLeft(containerRef.current.scrollLeft);
   };
 
-  const handleMouseMove = (event: MouseEvent) => {
+  const handleMouseMove: MouseEventHandler<HTMLDivElement> = (event) => {
     if (!containerRef.current) {
       return;
     }

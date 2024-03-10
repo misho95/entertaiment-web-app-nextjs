@@ -15,7 +15,7 @@ const NavBar = () => {
               className="select-none"
             />
           </Link>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-8">
             <Link href={"/"}>
               <Image
                 src="/assets/icon-nav-home.svg"
