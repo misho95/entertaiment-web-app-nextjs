@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import BookMarkButton from "./bookmark.button";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import BookMarkButton from "@/ui/bookmark.button";
 
 type PropsType = {
   data: any;
@@ -23,7 +23,7 @@ const Card = ({ data, pending }: PropsType) => {
   return (
     <div
       onClick={handleLink}
-      className="w-[470px] h-[230px] rounded-xl overflow-hidden relative flex items-end cursor-pointer"
+      className="w-[470px] h-[230px]  overflow-hidden relative flex items-end cursor-pointer"
     >
       <div className="bg-transparent w-full h-full absolute z-50 select-none" />
       <Image
@@ -31,7 +31,7 @@ const Card = ({ data, pending }: PropsType) => {
         width={470}
         height={230}
         alt={data.title}
-        className="select-none absolute"
+        className="select-none absolute rounded-xl"
       />
       <BookMarkButton
         checked={bookmarked}

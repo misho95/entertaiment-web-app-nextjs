@@ -1,0 +1,226 @@
+export const Data: DataType = {
+  trending: [
+    {
+      id: 1,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 2,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 3,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+    {
+      id: 4,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 5,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 6,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+  ],
+  films: [
+    {
+      id: 1,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 2,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 3,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+    {
+      id: 4,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 5,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 6,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+    {
+      id: 7,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 8,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 9,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+    {
+      id: 10,
+      title: "Beyond Earth",
+      type: "movie",
+      year: 2019,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/beyond-earth/trending/large.jpg",
+        small: "/assets/thumbnails/beyond-earth/trending/small.jpg",
+      },
+    },
+    {
+      id: 11,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 12,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+    {
+      id: 11,
+      title: "Bottom Gear",
+      type: "movie",
+      year: 2021,
+      age: "PG",
+      thumbnails: {
+        large: "/assets/thumbnails/bottom-gear/trending/large.jpg",
+        small: "/assets/thumbnails/bottom-gear/trending/small.jpg",
+      },
+    },
+    {
+      id: 12,
+      title: "Undiscovered Cities",
+      type: "tv series",
+      year: 2019,
+      age: "E",
+      thumbnails: {
+        large: "/assets/thumbnails/undiscovered-cities/trending/large.jpg",
+        small: "/assets/thumbnails/undiscovered-cities/trending/small.jpg",
+      },
+    },
+  ],
+};
